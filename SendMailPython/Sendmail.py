@@ -9,9 +9,8 @@ class info:
     email_sender = "test@gmail.com"
     email_receiver = "dosseh@gmail.com"
     passwd = "passwd"
-    key_path = "/home/ubuntu/Gozem Drive/7. Analytics - Bola/Analytics - \
-        Bola/1. Analytics Team/Scripts/Cloud Automation Scripts/kiwallo/gz_bq.json"
-    project_id = 'gozem-1523973085602'
+    key_path = "path"
+    project_id = 'projectid'
 
 def send_email(subject, body, file_path=None):
     em = EmailMessage()
